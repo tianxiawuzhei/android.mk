@@ -45,29 +45,7 @@ FILE_INCLUDES += $(COCOS_DIR)/cocos2dx/menu_nodes \
 				 
   
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../Classes \
-                           $(CUATOM_ALLFILES)/TestNode \
-                           $(CUATOM_ALLFILES)/Games   \
-						   $(CUATOM_ALLFILES)/Games/GameManager   \
-						   $(CUATOM_ALLFILES)/Games/GameManager/GameMix \
-						   $(CUATOM_ALLFILES)/Common   \
-						   $(CUATOM_ALLFILES)/Common/crypto   \
-						   $(CUATOM_ALLFILES)/Common/ExtendClass   \
-						   $(CUATOM_ALLFILES)/Common/Update   \
-						   $(CUATOM_ALLFILES)/Common/HclcData   \
-						   $(CUATOM_ALLFILES)/Common/SneakyJoystick   \
-						   $(CUATOM_ALLFILES)/Common/platformEx   \
-						   $(CUATOM_ALLFILES)/Common/platformEx/PtmAndroid   \
-						   $(CUATOM_ALLFILES)/Common/netWork  \
-						   $(CUATOM_ALLFILES)/Common/netWork/cjson  \
-						   $(CUATOM_ALLFILES)/Common/netWork/zlib  \
-						   $(CUATOM_ALLFILES)/Common/jsoncpp/include/json  \
-						   $(CUATOM_ALLFILES)/Common/jsoncpp/src/lib_json  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/CCLabelTTFEx  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/GXScrollView  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/GXSliderAndScale  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/GXTouchBase  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/ScissorNode  \
-						   $(CUATOM_ALLFILES)/Common/GXC2dxLibrary/TestTouchPoint  
+
 						               
 LOCAL_C_INCLUDES := $(FILE_INCLUDES)  					   
 
